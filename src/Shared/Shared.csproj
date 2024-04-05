@@ -8,8 +8,9 @@
 
     <PropertyGroup>
         <PackageId>Fra.SharedLibrary</PackageId>
-        <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/FrederikBA/bachelor-shared</RepositoryUrl>
+        <Version>8.0.0</Version>
+        <Authors>FrederikBA</Authors>
+        <Company>Easyflow</Company>
     </PropertyGroup>
 
 </Project>
