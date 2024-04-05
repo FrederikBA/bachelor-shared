@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <PackageId>Fra.SharedLibrary</PackageId>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/FrederikBA/bachelor-shared</RepositoryUrl>
+    </PropertyGroup>
+
 </Project>
