@@ -1,6 +1,6 @@
 namespace Shared.Integration.Models;
 
-public class SharedWarningSentence
+public class BaseEntity
 {
     public int Id { get; set; }
 }
