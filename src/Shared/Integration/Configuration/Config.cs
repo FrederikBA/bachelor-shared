@@ -39,5 +39,7 @@ public static class Config
     {
         public const string WarningSentenceIntegration =
             "http://localhost:5267/api/WarningSentenceIntegration/warningsentences";
+        public const string ActiveWarningSentencesIntegration =
+            "http://localhost:5267/api/ProductWsIntegration/active";
     }
 }
