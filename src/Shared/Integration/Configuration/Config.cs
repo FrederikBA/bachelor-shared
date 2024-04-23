@@ -38,10 +38,10 @@ public static class Config
     public static class IntegrationEndpoints
     {
         public const string WarningSentenceIntegration =
-            "http://localhost:5267/api/WarningSentenceIntegration/warningsentences";
+            "http://localhost:8082/api/WarningSentenceIntegration/warningsentences";
 
         public const string ActiveWarningSentencesIntegration =
-            "http://localhost:5225/api/ProductWsIntegration/active";
+            "http://localhost:8081/api/ProductWsIntegration/active";
     }
 
     public static class Kafka
