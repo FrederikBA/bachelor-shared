@@ -29,17 +29,35 @@ public static class Config
             "Server=mssql;Database=ShwUsers;User Id=sa;Password=thisIsSuperStrong1234;TrustServerCertificate=True";
 
         public const string ShwChemicals =
-            "Server=localhost;Database=ShwChemicals;User Id=sa;Password=thisIsSuperStrong1234;TrustServerCertificate=True";
+            "Server=mssql;Database=ShwChemicals;User Id=sa;Password=thisIsSuperStrong1234;TrustServerCertificate=True";
 
         public const string ShwWarningSentences =
-            "Server=localhost;Database=ShwWarningSentences;User Id=sa;Password=thisIsSuperStrong1234;TrustServerCertificate=True";
+            "Server=mssql;Database=ShwWarningSentences;User Id=sa;Password=thisIsSuperStrong1234;TrustServerCertificate=True";
     }
 
     public static class IntegrationEndpoints
     {
         public const string WarningSentenceIntegration =
             "http://localhost:5267/api/WarningSentenceIntegration/warningsentences";
+
         public const string ActiveWarningSentencesIntegration =
             "http://localhost:5225/api/ProductWsIntegration/active";
+    }
+
+    public static class Kafka
+    {
+        private const string BootstrapServers = "kafka:9093";
+        private const string BootstrapServersLocal = "localhost:9092";
+
+        public static class Topics
+        {
+            public const string SyncAddWs = "sync-add-ws";
+            public const string SyncUpdateWs = "sync-update-ws";
+            public const string SyncDeleteWs = "sync-delete-ws";
+            public const string SyncAddProduct = "sync-add-product";
+            public const string SyncUpdateProduct = "sync-update-product";
+            public const string SyncDeleteProduct = "sync-delete-product";
+            public const string SyncAddUser = "sync-add-user";
+        }
     }
 }
