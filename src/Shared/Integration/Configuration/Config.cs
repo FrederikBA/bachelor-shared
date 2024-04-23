@@ -46,8 +46,8 @@ public static class Config
 
     public static class Kafka
     {
-        private const string BootstrapServers = "kafka:9093";
-        private const string BootstrapServersLocal = "localhost:9092";
+        public const string BootstrapServers = "kafka:9093";
+        public const string BootstrapServersLocal = "localhost:9092";
 
         public static class Topics
         {
