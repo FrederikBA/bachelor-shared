@@ -38,10 +38,10 @@ public static class Config
     public static class IntegrationEndpoints
     {
         public const string WarningSentenceIntegration =
-            "http://bachelor-ws:8082/api/WarningSentenceIntegration/warningsentences";
+            "http://ost.docker.internal:8082/api/WarningSentenceIntegration/warningsentences";
 
         public const string ActiveWarningSentencesIntegration =
-            "http://bachelor-chemicals:8081/api/ProductWsIntegration/active";
+            "http://host.docker.internal:8081/api/ProductWsIntegration/active";
     }
 
     public static class Kafka
